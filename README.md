@@ -24,8 +24,8 @@ A Spring Boot-based backend system that groups passengers into shared cabs while
    mvn spring-boot:run
    ```
 4. Access the API documentation (Swagger UI):
-   [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
-5. H2 Console: [http://localhost:8080/h2-console](http://localhost:8080/h2-console) (JDBC URL: `jdbc:h2:mem:testdb`, User: `sa`, Pass: `password`)
+   [http://localhost:8080/swagger-ui/index.html](http://localhost:8081/swagger-ui/index.html)
+5. H2 Console: [http://localhost:8080/h2-console](http://localhost:8081/h2-console) (JDBC URL: `jdbc:h2:mem:testdb`, User: `sa`, Pass: `password`)
 
 ## DSA Approach: Ride Matching
 - **Complexity**: $O(N \cdot K)$ where $N$ is candidate cabs and $K$ is average passengers per cab.
